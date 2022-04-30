@@ -1,20 +1,20 @@
 <div>
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-default fixed-top navigation bg-dark text-light">
+  <nav class="navbar navbar-default fixed-top navigation contrast-color text-light">
     <div class="container">
       <a class="navbar-brand" href="#title"><img class="jlogo" src="../../assets/logo.png" alt="logo"> Janine Jay</a>
       <ul class="nav">
-        <li><a class="nav-link" href="#experience">Experience</a></li>
-        <li><a class="nav-link" href="#education">Education</a></li>
-        <li><a class="nav-link" href="#skills">Skills</a></li>
-        <li><a class="nav-link" href="#projects">Projects</a></li>
-        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="nav-link text-dark" href="#experience">Experience</a></li>
+        <li><a class="nav-link text-dark" href="#education">Education</a></li>
+        <li><a class="nav-link text-dark" href="#skills">Skills</a></li>
+        <li><a class="nav-link text-dark" href="#projects">Projects</a></li>
+        <li><a class="nav-link text-dark" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <header class="bg-dark text-white" id="title">
+  <header class="contrast-color text-white" id="title">
     <div class=" text-center title">
       <img src="../assets/versailles.jpg" class="rounded border border-light" alt="versailles">
       <h1 class="myName"> Janine Jay </h1>
@@ -32,7 +32,8 @@
     </div>
   </section>
 
-  <section class="bg-dark text-light section">
+  <!-- Experience -->
+  <section class="contrast-color-two text-light section">
     <span class="anchor" id="experience"></span>
     <div class="container">
       <div class="row">
@@ -43,45 +44,69 @@
           <!-- Liberty Mutual -->
           <h4>Liberty Mutual Insurance</h4>
           <p></p>
-          <p><em>Technology Associate</em> ~ Boston, MA September 2018-Present</p>
-          <p>Joined as part of the TechStart Technology Leadership Development program</p>
-          <p>Contributed as a front-end engineer to HR web apps using JavaScript, HTML/CSS, Java, and React</p>
-          <p>Participated in trainings on AWS, BDD, React, MongoDB, TDD, Spring, Web App Security, and Agile</p>
+          <p><em>Software Engineer</em> ~ Boston, MA September 2018-Present</p>
+          <ul>
+            <li>Joined as part of the TechStart Technology Leadership Development program</li>
+            <li>Full-stack engineer for agile web application development using JavaScript, PostgreSQL, React ,
+              HTML/CSS, Java</li>
+            <li>Created a complex HR compensation web application for our business partners to streamline a service
+              which would manually take multiple weeks into various database functions that run in less than a half hour
+            </li>
+            <li>Created a web application that organized and automated various HR practices and approvals in a
+              traceable, single-source system</li>
+            <li>Uses skills in: AWS, BDD, TDD, Application Monitoring, Data Visualization, Accessibility Development
+            </li>
+          </ul>
           <br><br>
 
           <!-- Cigna -->
           <h4>Cigna Inc.</h4>
           <p><em>Technical Analyst Intern</em> ~ Bloomfield, CT May-August 2017</p>
-          <p>Contributed to a team working on rewriting a company website from AngularJS to Angular 2</p>
-          <p>Designed a new user interface for customer facing website with Sketch</p>
-          <p>Participated in an intern capstone project team by building the entire front end of a web app</p>
+          <ul>
+            <li>TECDP Summer Intern at Cigna working in the Software Engineering and Innovation team as an Application
+              Developer</li>
+            <li>Contributed to a team working on rewriting a company website from AngularJS to Angular 2</li>
+            <li>Worked on the front end development team using HTML, CSS, and TypeScript in an Angular framework for web
+              development for a company-wide movement challenge. This product not only integrated with various movement
+              trackers (Apple Watch, Garmin, etc), but also was so highly regarded, that the team packed and sold it as
+              a general product to the companies commercial clients</li>
+            <li>Worked in User Interface Design for web development using the popular UI tool Sketch</li>
+            <li>Participated in an intern capstone project team by building the entire front end of a web application
+            </li>
+          </ul>
           <br><br>
 
           <!-- Houlihan Lawrence -->
           <h4>Houlihan Lawrence</h4>
           <p><em>Assistant</em> ~ Greenwich, CT May 2015-August 2016</p>
-          <p>Managed databases for two high-end real estate agents to maintain information on current listings</p>
-          <p>Created marketing campaigns for two real estate agents to advertise listings in Greater Greenwich area</p>
-          <p>Interfaced with other brokers and town administrators to gather health and tax information on properties
-          </p>
+          <ul>
+            <li>Worked as an administrative assistant to two popular and highly regarded real estate agents</li>
+            <li>Kept both agents' online listings up to date, maintained information in the local real estate database,
+              created and managed online marketing, assisted in staging of homes, and interfaced with town
+              administrators</li>
+            <li>Utilized my design and computer skills to expand the agents' online presence as well as develop
+              materials for print and distribution</li>
+          </ul>
           <br><br>
 
           <!-- MakerBot Inc. -->
           <h4>MakerBot Inc.</h4>
           <p><em>Intern / Retail Operator</em> ~ Greenwich, CT Seasonal: June 2014-January 2015</p>
-          <p>Taught classes to customers on software and hardware to increase understanding of 3D printing and modeling
-          </p>
-          <p>Held community events to increase awareness of 3D printing and uses for schools, businesses, and homes</p>
-          <p>Managed product sales and maintenance of store equipment to keep inventory current</p>
-
+          <ul>
+            <li>Hired to sell and maintain various 3D printers and scanners in the store</li>
+            <li>Held community events to increase education of 3D printing and its various uses</li>
+            <li>Taught classes on both the printer hardware and 3D modeling software</li>
+            <li>Took away increased skills in customer relations as well as learning new technologies on the spot</li>
+          </ul>
           <br>
           <img src="../assets/Scholarship_Badge.jpg" alt="GHC Scholar Badge"
-            class="rounded border border-light mx-auto d-block">
+            class="scholar-img rounded border border-light mx-auto d-block">
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Education -->
   <section class="section">
     <span class="anchor" id="education"></span>
     <div class="container">
@@ -92,8 +117,8 @@
 
           <!-- Quinnipiac -->
           <h4>Quinnipiac University</h4>
-          <h5>BS Software Engineering ~ Graduated May 2018</h5>
-          <h5>Minor in Mathematics</h5>
+          <h5>BS Software Engineering ~ May 2018 ~ Magna Cum Laude</h5>
+          <h6>Minor in Mathematics</h6>
           <h6>Relevant Courses:</h6>
           <ul>
             <li>Programming and Problem Solving</li>
@@ -110,18 +135,26 @@
           </ul>
           <h5>Organizations:</h5>
           <ul>
-            <li>Quinnipiac Computing Club</li>
-            <li>Quinnipiac Honors Program</li>
-            <li>Alpha Delta Pi</li>
-            <li>University Innovation Fellows</li>
-            <li>Society of Women Engineers</li>
+            <li>Quinnipiac Computing Club ~ Founding Member & President</li>
+            <li>Quinnipiac Honors Program ~ Member</li>
+            <li>QU Engineering Student Organization ~ Member</li>
+            <li>Alpha Delta Pi ~ Sister & Recruitment Information Manager</li>
+            <li>University Innovation Fellows ~ Fellow</li>
+            <li>Society of Women Engineers ~ Member</li>
+          </ul>
+          <h5>Projects:</h5>
+          <ul>
+            <li><a class="project-link" href="https://github.com/janinerjay/QUietNight">QUiet Night</a></li>
+            <li><a class="project-link" href="https://github.com/janinerjay/YodaSpeak">Yoda Speaks</a></li>
+            <li><a class="project-link" href="https://github.com/janinerjay/SER360">CDS Insulin Project</a></li>
+            <li><a class="project-link" href="https://github.com/janinerjay/340-Project">Buck-Cats</a></li>
           </ul>
           <br><br>
 
           <!-- Queen Mary -->
           <h5>Queen Mary University of London</h5>
           <p>During Spring of 2017, I studied in London, England
-            and was priviledged to travel all around continental Europe</p>
+            and was priviledged to travel around continental Europe</p>
           <h6>Relevant Courses:</h6>
           <ul>
             <li>Graphical User Interfaces</li>
@@ -131,40 +164,42 @@
     </div>
   </section>
 
-  <section class="bg-dark text-light section">
+  <!-- Skills -->
+  <section class="contrast-color text-light section">
     <span class="anchor" id="skills"></span>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h3>Skills</h3>
           <br>
-
           <ul>
             <li>HTML/CSS</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>PostgreSQL</li>
+            <li>React</li>
             <li>Bootstrap</li>
+            <li>Agile Methodoligies</li>
             <li>Git</li>
             <li>Angular</li>
-            <li>React</li>
             <li>Java</li>
-            <li>Android SDK</li>
-            <li>Scala</li>
-            <li>Informatica</li>
-            <li>Scrum Cycle</li>
-            <li>Sketch</li>
             <li>User Interface Design</li>
-            <li>TypeScript</li>
-            <li>SQL</li>
             <li>Object Oriented Design</li>
+            <li>Scala</li>
+            <li>Sketch</li>
+            <li>Android SDK</li>
+            <li>iOS</li>
+            <li>MakerBot 3D Printers</li>
+            <li>Microsoft Office</li>
           </ul>
-          <br><br>
+          <br>
 
           <h5>Special Skills</h5>
           <ul>
-            <li>Makes a mean blueberry-peach pie</li>
+            <li>Makes a mean peach-blueberry pie</li>
             <li>Avid snowblader</li>
+            <li>Can rock a dance floor for 5+ hours</li>
             <li>One of history's greatest minds in the construction of snow forts</li>
-            <li>Rock a dance floor for 5+ hours</li>
             <li>Can belt "Carry On My Wayward Son" at the top of my lungs</li>
             <li>Master with a soldering iron</li>
           </ul>
@@ -173,26 +208,53 @@
     </div>
   </section>
 
+  <!-- Volunteering -->
   <section id="darkText" class="section">
     <span class="anchor" id="projects"></span>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h3>Projects</h3>
+          <h3>Volunteering</h3>
           <br>
-
+          <h4>Beacon Hill Civic Association</h4>
+          <h5>Green Committee ~ Chair</h5>
+          <p>The Green Committee aims to support and encourage sustainable living for Beacon Hill residents and
+            businesses.</p>
           <ul>
-            <li><a href="https://github.com/janinerjay/QUietNight">QUiet Night</a></li>
-            <li><a href="https://github.com/janinerjay/YodaSpeak">Yoda Speaks</a></li>
-            <li><a href="https://github.com/janinerjay/SER360">CDS Insulin Project</a></li>
-            <li><a href="https://github.com/janinerjay/340-Project">Buck-Cats</a></li>
+            <li>Advocated for a residential curbside composting through the City of Boston which is now starting a pilot
+              program</li>
+            <li>Educated residents on recycling right and responsible consumerism through a weekly newsletter column
+            </li>
+            <li>Ran a table at a local festival with an interactive exhibit to educate local children about composting
+            </li>
+            <li>Most recent initiative is working to encourage zero-waste packaging for local businesses, particularly
+              those in the food and beverage industry</li>
+          </ul>
+          <h5>Young Friends ~ Chair</h5>
+          <p>Young Friends is an organization where we host monthly meetups for young professionals in the neighborhood.
+          </p>
+          <ul>
+            <li>Through consistent outreach, as well as welcoming interactions at our meetups, our attendance is up by
+              50% in the last two years</li>
+            <li>Our online meetups during Covid were well attended due to their engaging atmosphere</li>
+          </ul>
+          <h5>Streets & Sidewalks ~ Co-Chair</h5>
+          <p>The Streets & Sidewalks committee aims to recognize and address issues of maintenance and cleanliness of
+            the historic district of Beacon Hill, and work with the city of Boston officials to rectify any problems.
+          </p>
+          <ul>
+            <li>Created the 'Brick By Brick' initiative, a cleanup effort, as a grassroots effort around the
+              neighborhood</li>
+            <li>Advocated to change trash days from Monday/Friday to Monday/Thursday to be more spread out in the week
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-dark text-light section">
+  <!-- Contact -->
+  <section class="contrast-color-two text-light section">
     <span class="anchor" id="contact"></span>
     <div class="container">
       <div class="row">
@@ -215,7 +277,7 @@
           <br>
 
           <!-- Resume: Code Version -->
-          <a href="../../assets/Janine_Resume.pdf" download>My Resume: Developer Version</a>
+          <a href="../../assets/Jay_Developer_Resume.pdf" download>My Resume: Developer Version</a>
           <br>
 
           <!-- Resume: PR Version -->
@@ -227,9 +289,9 @@
   </section>
 
   <!-- Footer -->
-  <footer id="footer" class="py-5 bg-dark text-light">
+  <footer id="footer" class="py-5 contrast-color-two text-light">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Janine Jay 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Janine Jay 2022</p>
     </div>
     <!-- /.container -->
   </footer>

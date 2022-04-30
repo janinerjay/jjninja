@@ -7,11 +7,24 @@ a {
   color: white;
 }
 
+.project-link {
+  text-decoration: solid underline 1px;
+  color: #48515F;
+}
+
 .anchor {
   display: block;
   height: 75px;
   margin-top: -63px;
   visibility: hidden;
+}
+
+.contrast-color {
+  background-color: #E69D89;
+}
+
+.contrast-color-two {
+  background-color: #606D80;
 }
 
 .jlogo {
@@ -26,6 +39,11 @@ header {
 img {
   width: 40vh;
   height: 40vh;
+}
+
+.scholar-img {
+  width: 30vh;
+  height: 30vh;
 }
 
 #darkText a {
@@ -48,4 +66,5 @@ img {
 .myName {
   vertical-align: middle;
   display: inline-block;
+  margin: 0 10vh 0 10vh;
 }
