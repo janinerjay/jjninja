@@ -3,16 +3,17 @@ import './App.css';
 import GoogleImg from './assets/Google.jpg';
 import VersaillesImg from './assets/versailles.jpg';
 import ScholarshipImg from './assets/Scholarship_Badge.jpg';
+import DeveloperResume from './assets/Jay_Developer_Resume.pdf';
+import Resume from './assets/Jay_Resume.pdf';
 
 function App() {
   return (
     <div>
       {/* Navigation Bar */}
-      <nav className="navbar navbar-default fixed-top navigation contrast-color text-light">
+      <nav className="navbar navbar-default fixed-top navigation">
         <div className="container">
           <a className="navbar-brand" href="#title">
-            <img className="jlogo" src={logo} alt="logo" />
-            Janine Jay</a>
+            <img className="jlogo" src={logo} alt="logo" /> Janine Jay</a>
           <ul className="nav">
             <li><a className="nav-link text-dark" href="#experience">Experience</a></li>
             <li><a className="nav-link text-dark" href="#education">Education</a></li>
@@ -23,7 +24,7 @@ function App() {
         </div>
       </nav>
 
-      <div className="contrast-color text-white" id="title">
+      <div className="contrast-color" id="title">
         <div className=" text-center title">
           <img src={VersaillesImg} className="rounded border border-light" alt="versailles" />
           <h1 className="myName"> Janine Jay </h1>
@@ -35,7 +36,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
-              <p className="lead">Software Engineer ~ Front End Developer ~ UX/UI Designer</p>
+              <p className="lead" style={{ color: "#364659" }}>Software Engineer ~ Front End Developer ~ UX/UI Designer</p>
             </div>
           </div>
         </div>
@@ -151,14 +152,14 @@ function App() {
                 <li>University Innovation Fellows ~ Fellow</li>
                 <li>Society of Women Engineers ~ Member</li>
               </ul>
-              <h5>Projects:</h5>
+              {/* <h5>Projects:</h5>
               <ul>
                 <li><a className="project-link" href="https://github.com/janinerjay/QUietNight">QUiet Night</a></li>
                 <li><a className="project-link" href="https://github.com/janinerjay/YodaSpeak">Yoda Speaks</a></li>
                 <li><a className="project-link" href="https://github.com/janinerjay/SER360">CDS Insulin Project</a></li>
                 <li><a className="project-link" href="https://github.com/janinerjay/340-Project">Buck-Cats</a></li>
               </ul>
-              <br /><br />
+              <br /><br /> */}
 
               {/* Queen Mary */}
               <h5>Queen Mary University of London</h5>
@@ -174,7 +175,7 @@ function App() {
       </section>
 
       {/* Skills */}
-      <section className="contrast-color text-light section">
+      <section className="contrast-color section">
         <span className="anchor" id="skills"></span>
         <div className="container">
           <div className="row">
@@ -286,11 +287,11 @@ function App() {
               <br />
 
               {/* Resume: Code Version */}
-              <a href="../assets/Jay_Developer_Resume.pdf" download>My Resume: Developer Version</a>
+              <a href={DeveloperResume} filename="Jay_Developer_Resume.pdf" download>My Resume: Developer Version</a>
               <br />
 
               {/* Resume: PR Version */}
-              <a href="../assets/Jay_Resume.pdf" download>My Resume: HR Version</a>
+              <a href={Resume} filename="Jay_Resume.pdf" download>My Resume: HR Version</a>
 
             </div>
           </div>
