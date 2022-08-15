@@ -1,5 +1,8 @@
-// import logo from './logo.svg';
+import logo from './assets/logo.png';
 import './App.css';
+import GoogleImg from './assets/Google.jpg';
+import VersaillesImg from './assets/versailles.jpg';
+import ScholarshipImg from './assets/Scholarship_Badge.jpg';
 
 function App() {
   return (
@@ -7,7 +10,9 @@ function App() {
       {/* Navigation Bar */}
       <nav className="navbar navbar-default fixed-top navigation contrast-color text-light">
         <div className="container">
-          <a className="navbar-brand" href="#title"><img className="jlogo" src="../assets/logo.png" alt="logo" /> Janine Jay</a>
+          <a className="navbar-brand" href="#title">
+            <img className="jlogo" src={logo} alt="logo" />
+            Janine Jay</a>
           <ul className="nav">
             <li><a className="nav-link text-dark" href="#experience">Experience</a></li>
             <li><a className="nav-link text-dark" href="#education">Education</a></li>
@@ -20,9 +25,9 @@ function App() {
 
       <div className="contrast-color text-white" id="title">
         <div className=" text-center title">
-          <img src="../assets/versailles.jpg" className="rounded border border-light" alt="versailles" />
+          <img src={VersaillesImg} className="rounded border border-light" alt="versailles" />
           <h1 className="myName"> Janine Jay </h1>
-          <img src="../assets/Google.jpg" className="rounded border border-light" alt="google" />
+          <img src={GoogleImg} className="rounded border border-light" alt="google" />
         </div>
       </div>
 
@@ -103,7 +108,7 @@ function App() {
                 <li>Took away increased skills in customer relations as well as learning new technologies on the spot</li>
               </ul>
               <br />
-              <img src="../assets/Scholarship_Badge.jpg" alt="GHC Scholar Badge"
+              <img src={ScholarshipImg} alt="GHC Scholar Badge"
                 className="scholar-img rounded border border-light mx-auto d-block" />
             </div>
           </div>
