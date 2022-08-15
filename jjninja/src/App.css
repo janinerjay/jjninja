@@ -2,6 +2,10 @@
   font-family: Courier New, Courier, monospace;
 }
 
+body {
+  margin:0;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -20,11 +24,11 @@ a {
 }
 
 .contrast-color {
-  background-color: #E69D89;
+  background-color: #FBEEB2;
 }
 
 .contrast-color-two {
-  background-color: #606D80;
+  background-color: #748EAA;
 }
 
 .jlogo {
@@ -47,11 +51,12 @@ img {
 }
 
 #darkText a {
-  color: #486BB6;
+  color: #5D7998;
 }
 
 .navigation {
   background-color: white;
+  color: #364659;
 }
 
 .section {
@@ -61,6 +66,8 @@ img {
 .title {
   width: 100%;
   line-height: 15vh;
+  padding-top: 11vh;
+  padding-bottom: 4vh;
 }
 
 .myName {
