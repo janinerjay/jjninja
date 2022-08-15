@@ -1,47 +1,47 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div>
       {/* Navigation Bar */}
-      <nav class="navbar navbar-default fixed-top navigation contrast-color text-light">
-        <div class="container">
-          <a class="navbar-brand" href="#title"><img class="jlogo" src="../../assets/logo.png" alt="logo" /> Janine Jay</a>
-          <ul class="nav">
-            <li><a class="nav-link text-dark" href="#experience">Experience</a></li>
-            <li><a class="nav-link text-dark" href="#education">Education</a></li>
-            <li><a class="nav-link text-dark" href="#skills">Skills</a></li>
-            <li><a class="nav-link text-dark" href="#projects">Projects</a></li>
-            <li><a class="nav-link text-dark" href="#contact">Contact</a></li>
+      <nav className="navbar navbar-default fixed-top navigation contrast-color text-light">
+        <div className="container">
+          <a className="navbar-brand" href="#title"><img className="jlogo" src="../assets/logo.png" alt="logo" /> Janine Jay</a>
+          <ul className="nav">
+            <li><a className="nav-link text-dark" href="#experience">Experience</a></li>
+            <li><a className="nav-link text-dark" href="#education">Education</a></li>
+            <li><a className="nav-link text-dark" href="#skills">Skills</a></li>
+            <li><a className="nav-link text-dark" href="#projects">Projects</a></li>
+            <li><a className="nav-link text-dark" href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
 
-      <div class="contrast-color text-white" id="title">
-        <div class=" text-center title">
-          <img src="../assets/versailles.jpg" class="rounded border border-light" alt="versailles" />
-          <h1 class="myName"> Janine Jay </h1>
-          <img src="../assets/Google.jpg" class="rounded border border-light" alt="google" />
+      <div className="contrast-color text-white" id="title">
+        <div className=" text-center title">
+          <img src="../assets/versailles.jpg" className="rounded border border-light" alt="versailles" />
+          <h1 className="myName"> Janine Jay </h1>
+          <img src="../assets/Google.jpg" className="rounded border border-light" alt="google" />
         </div>
       </div>
 
-      <section id="about" class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-              <p class="lead">Software Engineer ~ Front End Developer ~ UX/UI Designer</p>
+      <section id="about" className="section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto text-center">
+              <p className="lead">Software Engineer ~ Front End Developer ~ UX/UI Designer</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Experience */}
-      <section class="contrast-color-two text-light section">
-        <span class="anchor" id="experience"></span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
+      <section className="contrast-color-two text-light section">
+        <span className="anchor" id="experience"></span>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
               <h3>Experience</h3>
               <br />
 
@@ -99,23 +99,23 @@ function App() {
               <ul>
                 <li>Hired to sell and maintain various 3D printers and scanners in the store</li>
                 <li>Held community events to increase education of 3D printing and its various uses</li>
-                <li>Taught classes on both the printer hardware and 3D modeling software</li>
+                <li>Taught classNamees on both the printer hardware and 3D modeling software</li>
                 <li>Took away increased skills in customer relations as well as learning new technologies on the spot</li>
               </ul>
               <br />
               <img src="../assets/Scholarship_Badge.jpg" alt="GHC Scholar Badge"
-                class="scholar-img rounded border border-light mx-auto d-block" />
+                className="scholar-img rounded border border-light mx-auto d-block" />
             </div>
           </div>
         </div>
       </section>
 
       {/* Education */}
-      <section class="section">
-        <span class="anchor" id="education"></span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
+      <section className="section">
+        <span className="anchor" id="education"></span>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
               <h3>Education</h3>
               <br />
 
@@ -148,10 +148,10 @@ function App() {
               </ul>
               <h5>Projects:</h5>
               <ul>
-                <li><a class="project-link" href="https://github.com/janinerjay/QUietNight">QUiet Night</a></li>
-                <li><a class="project-link" href="https://github.com/janinerjay/YodaSpeak">Yoda Speaks</a></li>
-                <li><a class="project-link" href="https://github.com/janinerjay/SER360">CDS Insulin Project</a></li>
-                <li><a class="project-link" href="https://github.com/janinerjay/340-Project">Buck-Cats</a></li>
+                <li><a className="project-link" href="https://github.com/janinerjay/QUietNight">QUiet Night</a></li>
+                <li><a className="project-link" href="https://github.com/janinerjay/YodaSpeak">Yoda Speaks</a></li>
+                <li><a className="project-link" href="https://github.com/janinerjay/SER360">CDS Insulin Project</a></li>
+                <li><a className="project-link" href="https://github.com/janinerjay/340-Project">Buck-Cats</a></li>
               </ul>
               <br /><br />
 
@@ -169,11 +169,11 @@ function App() {
       </section>
 
       {/* Skills */}
-      <section class="contrast-color text-light section">
-        <span class="anchor" id="skills"></span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
+      <section className="contrast-color text-light section">
+        <span className="anchor" id="skills"></span>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
               <h3>Skills</h3>
               <br />
               <ul>
@@ -213,11 +213,11 @@ function App() {
       </section>
 
       {/* Volunteering */}
-      <section id="darkText" class="section">
-        <span class="anchor" id="projects"></span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
+      <section id="darkText" className="section">
+        <span className="anchor" id="projects"></span>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
               <h3>Volunteering</h3>
               <br />
               <h4>Beacon Hill Civic Association</h4>
@@ -258,11 +258,11 @@ function App() {
       </section>
 
       {/* Contact */}
-      <section class="contrast-color-two text-light section">
-        <span class="anchor" id="contact"></span>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
+      <section className="contrast-color-two text-light section">
+        <span className="anchor" id="contact"></span>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 mx-auto">
               <h3>Contact</h3>
               <br />
 
@@ -273,11 +273,11 @@ function App() {
 
               <h4>Around the Web</h4>
               {/* GitHub */}
-              <a href="https://github.com/janinerjay" target="_blank">Github</a>
+              <a href="https://github.com/janinerjay" target="_blank" rel="noreferrer">Github</a>
               <br />
 
               {/* Linked In */}
-              <a href="https://www.linkedin.com/in/janinerjay" target="_blank">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/janinerjay" target="_blank" rel="noreferrer">LinkedIn</a>
               <br />
 
               {/* Resume: Code Version */}
@@ -293,9 +293,9 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer id="footer" class="py-5 contrast-color-two text-light">
-        <div class="container">
-          <p class="m-0 text-center text-white">Copyright &copy; Janine Jay 2022</p>
+      <footer id="footer" className="py-5 contrast-color-two text-light">
+        <div className="container">
+          <p className="m-0 text-center text-white">Copyright &copy; Janine Jay 2022</p>
         </div>
       </footer>
 
