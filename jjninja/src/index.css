@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  font-family: Courier New, Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-link {
+  text-decoration: solid underline 1px;
+  color: #48515F;
+}
+
+.anchor {
+  display: block;
+  height: 75px;
+  margin-top: -63px;
+  visibility: hidden;
+}
+
+.contrast-color {
+  background-color: #E69D89;
+}
+
+.contrast-color-two {
+  background-color: #606D80;
+}
+
+.jlogo {
+  width: 34px;
+  height: 43px;
+}
+
+header {
+  padding: 18vh 1vh 4vh 1vh;
+}
+
+img {
+  width: 40vh;
+  height: 40vh;
+}
+
+.scholar-img {
+  width: 30vh;
+  height: 30vh;
+}
+
+#darkText a {
+  color: #486BB6;
+}
+
+.navigation {
+  background-color: white;
+}
+
+.section {
+  padding: 10vh 2vh 10vh 2vh;
+}
+
+.title {
+  width: 100%;
+  line-height: 15vh;
+}
+
+.myName {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 10vh 0 10vh;
+}
