@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.8b3f3153.css",
-    "main.js": "/static/js/main.ca34397f.js",
+    "main.js": "/static/js/main.98d4fa1c.js",
     "static/js/787.5419854f.chunk.js": "/static/js/787.5419854f.chunk.js",
     "static/media/Google.jpg": "/static/media/Google.b5e5f5bdcfe11bc9fd92.jpg",
-    "static/media/Jay_Resume.pdf": "/static/media/Jay_Resume.9bc53240f77510439fa0.pdf",
     "static/media/Scholarship_Badge.jpg": "/static/media/Scholarship_Badge.180b9241006bdc3f64ae.jpg",
+    "static/media/Jay_Resume.pdf": "/static/media/Jay_Resume.62c5666c4b1e18ffd7f4.pdf",
     "static/media/versailles.jpg": "/static/media/versailles.abea7f9973372ba37f9e.jpg",
     "static/media/Jay_Developer_Resume.pdf": "/static/media/Jay_Developer_Resume.5fb8d41efdd4d2b83e27.pdf",
     "static/media/logo.png": "/static/media/logo.01bbc312a8467f397f8e.png",
     "index.html": "/index.html",
     "main.8b3f3153.css.map": "/static/css/main.8b3f3153.css.map",
-    "main.ca34397f.js.map": "/static/js/main.ca34397f.js.map",
+    "main.98d4fa1c.js.map": "/static/js/main.98d4fa1c.js.map",
     "787.5419854f.chunk.js.map": "/static/js/787.5419854f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b3f3153.css",
-    "static/js/main.ca34397f.js"
+    "static/js/main.98d4fa1c.js"
   ]
 }
