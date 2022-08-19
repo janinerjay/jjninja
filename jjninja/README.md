@@ -3,7 +3,8 @@
 ## Deploy to Github Pages
 
 ```
-rpm run deploy
+npm run predeploy
+npm run deploy
 ```
 
 ---
