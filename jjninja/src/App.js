@@ -18,7 +18,7 @@ function App() {
             <li><a className="nav-link text-dark" href="#experience">Experience</a></li>
             <li><a className="nav-link text-dark" href="#education">Education</a></li>
             <li><a className="nav-link text-dark" href="#skills">Skills</a></li>
-            {/* <li><a className="nav-link text-dark" href="#projects">Projects</a></li> */}
+            <li><a className="nav-link text-dark" href="#volunteering">Volunteering</a></li>
             <li><a className="nav-link text-dark" href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -222,7 +222,7 @@ function App() {
 
       {/* Volunteering */}
       <section id="darkText" className="section">
-        <span className="anchor" id="projects"></span>
+        <span className="anchor" id="volunteering"></span>
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto">
