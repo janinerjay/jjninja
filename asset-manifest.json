@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f2b9d90.css",
-    "main.js": "/static/js/main.6b37217f.js",
+    "main.css": "/static/css/main.5147f5e1.css",
+    "main.js": "/static/js/main.ddb2b3ad.js",
     "static/js/787.5419854f.chunk.js": "/static/js/787.5419854f.chunk.js",
     "static/media/Google.jpg": "/static/media/Google.b5e5f5bdcfe11bc9fd92.jpg",
     "static/media/Jay_Resume.pdf": "/static/media/Jay_Resume.4358af00bd054acc30d6.pdf",
@@ -10,12 +10,12 @@
     "static/media/versailles.jpg": "/static/media/versailles.abea7f9973372ba37f9e.jpg",
     "static/media/logo.png": "/static/media/logo.01bbc312a8467f397f8e.png",
     "index.html": "/index.html",
-    "main.8f2b9d90.css.map": "/static/css/main.8f2b9d90.css.map",
-    "main.6b37217f.js.map": "/static/js/main.6b37217f.js.map",
+    "main.5147f5e1.css.map": "/static/css/main.5147f5e1.css.map",
+    "main.ddb2b3ad.js.map": "/static/js/main.ddb2b3ad.js.map",
     "787.5419854f.chunk.js.map": "/static/js/787.5419854f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f2b9d90.css",
-    "static/js/main.6b37217f.js"
+    "static/css/main.5147f5e1.css",
+    "static/js/main.ddb2b3ad.js"
   ]
 }
