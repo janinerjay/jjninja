@@ -6,7 +6,7 @@
 npm run predeploy
 npm run deploy
 ```
-
+Then go back to settings and make sure the DNS name is up to date
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
