@@ -36,7 +36,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
-              <p className="lead" style={{ color: "#364659" }}>Software Engineer ~ Front End Developer ~ UX/UI Designer</p>
+              <p className="lead" style={{ color: "#364659" }}>Senior Software Engineer ~ UX/UI Designer</p>
             </div>
           </div>
         </div>
@@ -57,16 +57,18 @@ function App() {
               <p><em>Senior Software Engineer</em> ~ Boston, MA September 2018-Present</p>
               <ul>
                 <li>Joined as part of the TechStart Technology Leadership Development program</li>
-                <li>Full-stack engineer for agile web application development using JavaScript, PostgreSQL, React,
+                <li>Full-stack engineer for agile web application development using JavaScript, TypeScript, PostgreSQL, React,
                   HTML/CSS, Java</li>
-                <li>One of the lead engineers working on a central manager portal to encompass all of the roles and
-                  responsibilities of various types of managers across our global employee population</li>
-                <li>Created a complex HR compensation web application for our business partners to streamline a service
-                  which would manually take multiple weeks into various database functions that run in less than a half hour
+                <li>Placed third in a company-wide hackathon encompassing over 400 engineers
+                </li>
+                <li>One of three lead engineers building a central portal to organize all of the roles and
+                  responsibilities of our global employee population- including a 360 feedback ecosystem</li>
+                <li>Created a HR compensation web application for our business partners to streamline a service
+                  which manually took multiple weeks, into various database functions that run in less than twenty minutes
                 </li>
                 <li>Created a web application that organized and automated various HR practices and approvals in a
                   traceable, single-source system</li>
-                <li>Uses skills in: AWS, BDD, TDD, Application Monitoring, Data Visualization, Accessibility Development
+                <li>Uses skills in: AWS, BDD, TDD, Prompt Engineering, Application Monitoring, Data Visualization, Accessibility Development
                 </li>
               </ul>
               <br /><br />
@@ -190,8 +192,10 @@ function App() {
                 <li>TypeScript</li>
                 <li>PostgreSQL</li>
                 <li>React</li>
+                <li>Prompt Engineering</li>
                 <li>Bootstrap</li>
                 <li>Agile Methodoligies</li>
+                <li>Product Thinking</li>
                 <li>Git</li>
                 <li>Angular</li>
                 <li>Java</li>
@@ -323,7 +327,7 @@ function App() {
       {/* Footer */}
       <footer id="footer" className="py-5 contrast-color-two text-light">
         <div className="container">
-          <p className="m-0 text-center text-white">Copyright &copy; Janine Jay 2022</p>
+          <p className="m-0 text-center text-white">Copyright &copy; Janine Jay {new Date().getFullYear()}</p>
         </div>
       </footer>
 
