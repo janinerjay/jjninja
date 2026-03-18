@@ -59,7 +59,7 @@ function App() {
                 <li>Joined as part of the TechStart Technology Leadership Development program</li>
                 <li>Full-stack engineer for agile web application development using JavaScript, TypeScript, PostgreSQL, React,
                   HTML/CSS, Java</li>
-                <li>Placed third in a company-wide hackathon encompassing over 400 engineers
+                <li>Placed third, two years in a row, in a company-wide hackathon encompassing over 400 engineers
                 </li>
                 <li>One of three lead engineers building a central portal to organize all of the roles and
                   responsibilities of our global employee population- including a 360 feedback ecosystem</li>
@@ -68,7 +68,7 @@ function App() {
                 </li>
                 <li>Created a web application that organized and automated various HR practices and approvals in a
                   traceable, single-source system</li>
-                <li>Uses skills in: AWS, BDD, TDD, Prompt Engineering, Application Monitoring, Data Visualization, Accessibility Development
+                <li>Uses skills in: Prompt Engineering, AWS, Application Monitoring, Data Visualization, Accessibility Development
                 </li>
               </ul>
               <br /><br />
@@ -232,6 +232,17 @@ function App() {
             <div className="col-lg-8 mx-auto">
               <h3>Volunteering</h3>
               <br />
+              <h4>Beacon Hill Women's Forum</h4>
+              <h5>Co-President, former Treasurer</h5>
+              <p>The Women's Forum is an organization open to all women who live in the extended Beacon Hill community.
+                It is a non-profit group that comes together to build community with a mission to connect, inspire, and enjoy!</p>
+              <ul>
+                <li>Successfully ran entire non-profit on a board of volunteers, encompassing program, marketing, finance, event planning, and more</li>
+                <li>Maintained diligent records of budgets, revenues, and expenses for distribution to our board and accountant</li>
+                <li>Revamped the Treasurer role with no finance background so that any member could feel comfortable
+                  taking on the role in the future
+                </li>
+              </ul>
               <h4>Boston SPARK Council</h4>
               <h5>Council Member</h5>
               <p>The SPARK Council is an appointed position that serves as the Mayor's ambassadors to the rest of
@@ -240,17 +251,6 @@ function App() {
                 <li>Acted as an ambassador representing Boston to our various 'sister cities'</li>
                 <li>Attended city meetings and reported back minutes to general council to promoted civic engagement</li>
                 <li>Volunteered at voter registration booths and encouraged community gathering</li>
-              </ul>
-              <h4>Beacon Hill Women's Forum</h4>
-              <h5>Treasurer</h5>
-              <p>The Women's Forum is an organization open to all women who live in the extended Beacon Hill community.
-                It is a non-profit group that comes together to build community with a mission to connect, inspire, and enjoy!</p>
-              <ul>
-                <li>Organized annual budgets for the fiscal year in accordance with federal and state non-profit laws</li>
-                <li>Maintained diligent records of revenues and expenses for distribution to our board and accountant</li>
-                <li>Revamped the Treasurer role with no finance background so that any member could feel comfortable
-                  taking on the role in the future
-                </li>
               </ul>
               <h4>Beacon Hill Civic Association</h4>
               <h5>Green Committee ~ Chair</h5>
