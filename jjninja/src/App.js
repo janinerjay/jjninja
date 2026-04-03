@@ -36,7 +36,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
-              <p className="lead" style={{ color: "#364659" }}>Senior Software Engineer ~ UX/UI Designer</p>
+              <p className="lead" style={{ color: "#364659" }}>Senior Software Engineer ~ UX/UI Engineer</p>
             </div>
           </div>
         </div>
@@ -53,23 +53,14 @@ function App() {
 
               {/* Liberty Mutual */}
               <h4>Liberty Mutual Insurance</h4>
-              <p></p>
               <p><em>Senior Software Engineer</em> ~ Boston, MA September 2018-Present</p>
               <ul>
                 <li>Joined as part of the TechStart Technology Leadership Development program</li>
-                <li>Full-stack engineer for agile web application development using JavaScript, TypeScript, PostgreSQL, React,
-                  HTML/CSS, Java</li>
-                <li>Placed third, two years in a row, in a company-wide hackathon encompassing over 400 engineers
-                </li>
-                <li>One of three lead engineers building a central portal to organize all of the roles and
-                  responsibilities of our global employee population- including a 360 feedback ecosystem</li>
-                <li>Created a HR compensation web application for our business partners to streamline a service
-                  which manually took multiple weeks, into various database functions that run in less than twenty minutes
-                </li>
-                <li>Created a web application that organized and automated various HR practices and approvals in a
-                  traceable, single-source system</li>
-                <li>Uses skills in: Prompt Engineering, AWS, Application Monitoring, Data Visualization, Accessibility Development
-                </li>
+                <li>Engineered and maintained enterprise web applications that automated complex manual workflows, improving operational efficiency and accuracy at scale</li>
+                <li>Spearheaded team AI adoption by integrating GitHub Copilot into daily engineering workflows, delivering measurable productivity and performance improvements</li>
+                <li>Led infrastructure modernization and security initiatives, including CI/CD pipeline migrations and enterprise-level threat modeling for sensitive vendor integrations</li>
+                <li>Placed third back-to-back in two company-wide hackathons, judged by C-Suite leadership</li>
+                <li>Mentored seven colleagues through the Women in Technology Program; all received full-time offers at Liberty</li>
               </ul>
               <br /><br />
 
@@ -77,16 +68,9 @@ function App() {
               <h4>Cigna Inc.</h4>
               <p><em>Technical Analyst Intern</em> ~ Bloomfield, CT May-August 2017</p>
               <ul>
-                <li>TECDP Summer Intern at Cigna working in the Software Engineering and Innovation team as an Application
-                  Developer</li>
-                <li>Contributed to a team working on rewriting a company website from AngularJS to Angular 2</li>
-                <li>Worked on the front end development team using HTML, CSS, and TypeScript in an Angular framework for web
-                  development for a company-wide movement challenge. This product not only integrated with various movement
-                  trackers (Apple Watch, Garmin, etc), but also was so highly regarded, that the team packed and sold it as
-                  a general product to the companies commercial clients</li>
-                <li>Worked in User Interface Design for web development using the popular UI tool Sketch</li>
-                <li>Participated in an intern capstone project team by building the entire front end of a web application
-                </li>
+                <li>Contributed to a team which rewrote a company website from AngularJS to Angular 2</li>
+                <li>Designed a new user interface for a customer-facing website with Sketch</li>
+                <li>Participated in an intern capstone project team by building the entire front end of a web application</li>
               </ul>
               <br /><br />
 
@@ -107,10 +91,9 @@ function App() {
               <h4>MakerBot Inc.</h4>
               <p><em>Intern / Retail Operator</em> ~ Greenwich, CT Seasonal: June 2014-January 2015</p>
               <ul>
-                <li>Hired to sell and maintain various 3D printers and scanners in the store</li>
-                <li>Held community events to increase education of 3D printing and its various uses</li>
-                <li>Taught classNamees on both the printer hardware and 3D modeling software</li>
-                <li>Took away increased skills in customer relations as well as learning new technologies on the spot</li>
+                <li>Taught classes to customers on software and hardware to increase understanding of 3-D printing and modeling</li>
+                <li>Held community events to increase awareness of 3D printing and uses for schools, businesses, and homes</li>
+                <li>Managed product sales and maintenance of store equipment to keep inventory current</li>
               </ul>
               <br />
               <img src={ScholarshipImg} alt="GHC Scholar Badge"
@@ -142,7 +125,7 @@ function App() {
                 <li>Algorithm Design</li>
                 <li>Software Design and Development</li>
                 <li>Computer Networking</li>
-                <li>Softare and Healthcare</li>
+                <li>Software and Healthcare</li>
                 <li>Software Requirements Analysis </li>
                 <li>Software Project Management</li>
                 <li>Software Senior Capstone</li>
@@ -168,7 +151,7 @@ function App() {
               {/* Queen Mary */}
               <h5>Queen Mary University of London</h5>
               <p>During Spring of 2017, I studied in London, England
-                and was priviledged to travel around continental Europe</p>
+                and was privileged to travel around continental Europe</p>
               <h6>Relevant Courses:</h6>
               <ul>
                 <li>Graphical User Interfaces</li>
@@ -194,15 +177,19 @@ function App() {
                 <li>React</li>
                 <li>Prompt Engineering</li>
                 <li>Bootstrap</li>
-                <li>Agile Methodoligies</li>
+                <li>Agile Methodologies</li>
                 <li>Product Thinking</li>
                 <li>Git</li>
+                <li>CI/CD</li>
                 <li>Angular</li>
                 <li>Java</li>
                 <li>User Interface Design</li>
                 <li>Object Oriented Design</li>
                 <li>Scala</li>
-                <li>Sketch</li>
+                <li>AWS</li>
+                <li>Figma</li>
+                <li>Project Management</li>
+                <li>GitHub Copilot / AI-Assisted Dev</li>
                 <li>Android SDK</li>
                 <li>iOS</li>
                 <li>MakerBot 3D Printers</li>
@@ -232,6 +219,13 @@ function App() {
             <div className="col-lg-8 mx-auto">
               <h3>Volunteering</h3>
               <br />
+              <h4>Quinnipiac University Advisory Board</h4>
+              <h5>Advisory Board Member</h5>
+              <p><em>January 2026–Present</em></p>
+              <ul>
+                <li>Advising on the Software Engineering curriculum to align academic programs with current industry practices</li>
+                <li>Bridging talent pipeline opportunities between the university and Liberty Mutual recruiting teams</li>
+              </ul>
               <h4>Beacon Hill Women's Forum</h4>
               <h5>Co-President, former Treasurer</h5>
               <p>The Women's Forum is an organization open to all women who live in the extended Beacon Hill community.
