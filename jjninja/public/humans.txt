@@ -1,0 +1,19 @@
+/* TEAM */
+Everything: Janine Jay
+Role: Senior Software Engineer ~ UX/UI Engineer
+Location: Boston, MA
+GitHub: https://github.com/janinerjay
+LinkedIn: https://www.linkedin.com/in/janinerjay
+
+/* SPECIAL SKILLS */
+Makes a mean peach-blueberry pie
+Avid snowblader
+One of history's greatest minds in the construction of snow forts
+
+/* SITE */
+Last update: 2026/10/01
+Language: English
+Built with: React, Vite, Bootstrap, Courier New
+Hosted on: GitHub Pages
+Source: https://github.com/janinerjay/jjninja
+Easter eggs: several. Open the console to start.

@@ -1,0 +1,280 @@
+/* Palette borrowed from the developer resume. */
+:root {
+  --code-bg: #3d4260;
+  --code-bg-deep: #2b2f47;
+  --code-text: #ffffff;
+  --code-keyword: #ff8fc0;
+  --code-function: #7cf07c;
+  --code-variable: #7fd6f7;
+  --code-type: #9db8ff;
+  --code-comment: #b9bdd0;
+}
+
+/* Nav toggle and footer hint */
+.fun-button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.terminal-hint {
+  color: white;
+  opacity: 0.75;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+.terminal-hint:hover,
+.terminal-hint:focus-visible {
+  opacity: 1;
+}
+
+/* Code view */
+.code-mode,
+.code-mode .navigation,
+.code-mode footer {
+  background-color: var(--code-bg) !important;
+}
+
+.code-mode .navigation {
+  border-bottom: 1px solid var(--code-bg-deep);
+}
+
+.code-mode .navbar-brand {
+  color: var(--code-text);
+}
+
+.code-view {
+  --tab: 4ch;
+  color: var(--code-text);
+  padding: 7rem 2vh 6vh 2vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow-wrap: anywhere;
+}
+
+.code-view h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.code-block {
+  margin-top: 3rem;
+}
+
+/* Hanging indent, so wrapped lines stay inside their block. */
+.code-line {
+  --indent: 0;
+  padding-left: calc(var(--indent) * var(--tab) + var(--tab));
+  text-indent: calc(var(--tab) * -1);
+  white-space: pre-wrap;
+}
+
+.code-pre {
+  white-space: pre;
+}
+
+.code-view a {
+  color: var(--code-text);
+  text-decoration: underline;
+}
+
+.tok-keyword {
+  color: var(--code-keyword);
+}
+
+.tok-function {
+  color: var(--code-function);
+}
+
+.tok-variable {
+  color: var(--code-variable);
+}
+
+.tok-type {
+  color: var(--code-type);
+}
+
+.tok-comment {
+  color: var(--code-comment);
+}
+
+/* Terminal */
+.terminal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45vh;
+  z-index: 1040;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--code-bg-deep);
+  color: var(--code-text);
+  border-top: 2px solid var(--code-variable);
+  font-size: 0.9rem;
+}
+
+.terminal[hidden] {
+  display: none;
+}
+
+.terminal-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  color: var(--code-comment);
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.terminal-bar button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.terminal-output {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.terminal-line {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  min-height: 1.5em;
+}
+
+.terminal-line.is-input {
+  color: var(--code-variable);
+}
+
+.terminal-prompt {
+  color: var(--code-function);
+}
+
+.terminal-form {
+  display: flex;
+  gap: 1ch;
+  padding: 0.25rem 1rem 0.75rem 1rem;
+}
+
+.terminal-form input {
+  flex: 1;
+  min-width: 0;
+  background: none;
+  border: 0;
+  outline: 0;
+  color: var(--code-text);
+  /* Below 16px, iOS zooms the page when the input is focused. */
+  font-size: 16px;
+}
+
+/* Ninja */
+.ninja-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.ninja-runner {
+  position: absolute;
+  bottom: 12vh;
+  left: 0;
+  font-size: 5rem;
+  line-height: 1;
+  animation: ninja-run 2.6s linear forwards;
+}
+
+.ninja-star {
+  position: absolute;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  fill: #364659;
+  stroke: #ffffff;
+  stroke-width: 0.75;
+  opacity: 0;
+  animation: ninja-throw 1.4s linear forwards;
+}
+
+.ninja-star circle {
+  fill: #ffffff;
+  stroke: none;
+}
+
+.ninja-toast {
+  position: absolute;
+  top: 12vh;
+  left: 50%;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  background-color: #364659;
+  color: #ffffff;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  animation: ninja-toast 4s ease forwards;
+}
+
+@keyframes ninja-run {
+  from {
+    transform: translateX(-6rem);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes ninja-throw {
+  from {
+    opacity: 1;
+    transform: translateX(-3rem) rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(100vw) rotate(1440deg);
+  }
+}
+
+@keyframes ninja-toast {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  10%,
+  80% {
+    opacity: 1;
+  }
+}
+
+/* The nav wraps onto three rows on phones. */
+@media (max-width: 600px) {
+  .code-view {
+    --tab: 2ch;
+    padding-top: 10rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ninja-runner,
+  .ninja-star {
+    display: none;
+  }
+}
+
+.code-mode {
+  min-height: 100vh;
+}
+
+.code-mode .jlogo {
+  border-radius: 4px;
+}
